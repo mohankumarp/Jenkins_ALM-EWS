@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ALM_JENKINS", "ALM_JENKINS_INTEGRATION\ALM_JENKINS.csproj", "{AF4F52BB-E206-4200-970D-ED999DD5BC33}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F83D5586-0385-40AE-B202-6FA2E85EFC8C} = {F83D5586-0385-40AE-B202-6FA2E85EFC8C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PythonShell", "PythonUpdate\PythonShell.csproj", "{F83D5586-0385-40AE-B202-6FA2E85EFC8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF4F52BB-E206-4200-970D-ED999DD5BC33}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{AF4F52BB-E206-4200-970D-ED999DD5BC33}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{AF4F52BB-E206-4200-970D-ED999DD5BC33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF4F52BB-E206-4200-970D-ED999DD5BC33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF4F52BB-E206-4200-970D-ED999DD5BC33}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AF4F52BB-E206-4200-970D-ED999DD5BC33}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF4F52BB-E206-4200-970D-ED999DD5BC33}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{AF4F52BB-E206-4200-970D-ED999DD5BC33}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF4F52BB-E206-4200-970D-ED999DD5BC33}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{AF4F52BB-E206-4200-970D-ED999DD5BC33}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{AF4F52BB-E206-4200-970D-ED999DD5BC33}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{F83D5586-0385-40AE-B202-6FA2E85EFC8C}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{F83D5586-0385-40AE-B202-6FA2E85EFC8C}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{F83D5586-0385-40AE-B202-6FA2E85EFC8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F83D5586-0385-40AE-B202-6FA2E85EFC8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F83D5586-0385-40AE-B202-6FA2E85EFC8C}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{F83D5586-0385-40AE-B202-6FA2E85EFC8C}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{F83D5586-0385-40AE-B202-6FA2E85EFC8C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F83D5586-0385-40AE-B202-6FA2E85EFC8C}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F83D5586-0385-40AE-B202-6FA2E85EFC8C}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{F83D5586-0385-40AE-B202-6FA2E85EFC8C}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
